@@ -1,6 +1,10 @@
 # cintel-04-local
 run as administrator
 
+py -m venv .venv
+
+.venv\Scripts\Activate
+
 py -m pip install --upgrade pip setuptools
 
 py -m pip install --upgrade -r requirements.txt
